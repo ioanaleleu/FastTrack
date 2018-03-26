@@ -15,12 +15,31 @@ if (a < b ) {
     degete = a;
 }
 
-for (; degete > 0; ) {
+while (degete) {
     degete--;
     suma ++;
-    console.info (suma + ' - au mai ramas '+ degete + ' degetele');
+    console.info (suma + ' - there are '+ degete + ' fingers left');
 }
 console.info('summ is '+ suma);
 }
 
-var count = addNumbers(2,6);
+/*var count1 = addNumbers(2,6);
+var count2 = addNumbers(12, 30);*/
+function isNumberPrime(n) {
+    for(var i = 2; i< n; i++){
+        if(n%i == 0){
+            return false;
+        }
+    }
+return true;
+}
+
+function PrimeNumbers(n) {
+    for(var i =1; i<=n; i++) {
+        if (isNumberPrime(i)){
+            console.info(i);
+
+        }
+    }
+}
+PrimeNumbers(25);

@@ -1,0 +1,109 @@
+body {
+    margin: 5px;
+    padding:50px;
+    background: #ede6e6;
+}
+#wrapper{
+    width: 974px;
+    margin: 0 auto;
+}
+
+.frame {
+    margin:2%;
+    background: whitesmoke;
+    border: 2px groove;
+    box-shadow: 1px 1px 15px #111;
+    padding: 1%;
+}
+#txt1 {
+ text-align: right;
+    font-size: 40px;
+    display: inline;
+    color: darkgrey;
+}
+#txt2 {
+    text-align: center;
+    font-weight: bold;
+    color: darkgrey;
+    font-size: 20px;
+
+}
+#img {
+    border: darkgrey solid 1px;
+    border-radius: 50%;
+    display: inline;
+}
+
+#lang{
+    border: 1px solid black;
+
+
+}
+
+h3 {
+    background-color: darkgrey;
+    border: white solid 1px;
+    border-radius: 4px;
+    font-size: 30px;
+color: white;
+
+}
+.senior {
+   font-weight: bold;
+    color: darkblue;
+}
+
+#aboutme {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+.licensed{
+    background-image: url("licensed.jpg");
+    background-repeat: no-repeat;
+    padding: 7px 7px 7px 42px;
+}
+
+.notjobrelated {
+    color: white;
+}
+
+#top-menu-bar{
+    text-align: center;
+    background-color: darkgrey;
+    color: #fff;
+    border: white solid 2px;
+    border-radius: 4px;
+    padding: 1px 1px 1px 1px;
+
+}
+
+#top-menu-bar li {
+
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+#top-menu-bar a {
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+    color: #fff ;
+
+}
+
+#top-menu-bar a:visited {color: #fff}
+#top-menu-bar a:hover {
+    color: #334455;
+    background: #fff;
+}
+#main {
+
+    padding: 5px 50px 5px 100px;
+}
+
+#main th{
+    padding: 5px 40px 30px 10px;
+
+}
